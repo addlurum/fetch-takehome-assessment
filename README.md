@@ -42,6 +42,7 @@
   ],
   "total": "18.74"
 }
+```
 
 
 ## Running with Docker
@@ -63,12 +64,16 @@ cd receipt-processor
 docker build -t receipt-processor .
 
 docker run -p 8080:8080 receipt-processor
+```
 
 The service will be available at: http://localhost:8080
 
 ### Pull from Docker Hub
+
+```
 docker pull addlurum/receipt-processor
 
 docker run -p 8080:8080 addlurum/receipt-processor
+```
 
 
